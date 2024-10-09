@@ -1,0 +1,19 @@
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración del entorno de desarrollo
+.vscode/
+.idea/
+
+# Ignorar archivos de compilación
+*.o
+*.out
+/build/
+
+# Ignorar archivos de configuración personal
+.env
+config/settings.json
+
+# Ignorar todos los archivos temporales
+*.tmp
